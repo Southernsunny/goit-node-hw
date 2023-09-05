@@ -9,7 +9,6 @@ const sendEmail = async data => {
   const mg = mailgun.client({
     username: 'southensunny22@gmail.com',
     key: MAILGUN_API_KEY,
-    url: 'https://api.eu.mailgun.net',
   });
 
   mg.messages
