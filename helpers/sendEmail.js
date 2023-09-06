@@ -14,7 +14,7 @@ const sendEmail = async data => {
   mg.messages
     .create('sandbox37207933cf9b416589e9c4f234216fe7.mailgun.org', {
       from: '<southensunny22@gmail.com>',
-      to: [data.to],
+      to: '<southensunny22@gmail.com>',
       subject: 'Verify your email',
       text: 'Verify your email',
       html: data.html,
